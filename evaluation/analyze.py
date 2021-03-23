@@ -23,6 +23,6 @@ if __name__ == "__main__":
         result.append(random.choice(select_from[sample]))
 
     with open("sampled.csv", "w+") as out:
-        print(f"Sampled values: {N_SAMPLES}", file=out)
+        print(f"Sampled values: {N_SAMPLES}")
         for i in result:
             print(i, end="", file=out)
