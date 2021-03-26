@@ -1,50 +1,55 @@
-Score : 0.96010315 | data/js/programs_all/bomberstudios/sketch-framer/examples/GoogleNow_exported_by_Framer/framer/framer.js : 4366 - 4366 | LIT:1 | - | ID:cx|False Positive|Some Bezier curve computation. Same computation a few lines later
-Score : 0.9694593 | data/js/programs_all/sirnewton01/godev/bundles/org.eclipse.orion.client.ui/web/orion/inlineSearchResultExplorer.js : 259 - 259 | LIT:0 | < | ID:length|False Positive|Compare lenght of folders. Just weird arrangement
-Score : 0.9697726 | data/js/programs_all/twitter/twitter-cldr-js/lib/assets/javascripts/twitter_cldr/en-IE.js : 1419 - 1419 | ID:_ref | <= | LIT:0|False Positive|Weird bidirectionaly for loop based on mentioned condition
-Score : 0.9855146 | data/js/programs_all/itteco/iframely/modules/api/utils.js : 37 - 37 | LIT:100 | / | ID:media|False Positive|Computes padding based on aspect ratio
-Score : 0.99801505 | data/js/programs_all/KF-kissyForm/butterfly/gallery/form/1.1/uploader/auth/base.js : 179 - 179 | ID:len | < | ID:rule|False Positive|Check max uploads by comparing lenght of uploaded files with the configured rule max
-Score : 0.9634204 | data/js/programs_all/quadroid/clonejs/src/clone.js : 607 - 607 | ID:count | / | ID:time|False Positive|Benchmarking compute throughput
-Score : 0.9680401 | data/js/programs_all/chrisaljoudi/uBlock/src/js/static-net-filtering.js : 66 - 66 | LIT:13 | << | LIT:4|False Positive|Some static computation of bit shifting
-Score : 0.963853 | data/js/programs_all/kyr0/Extanium/Extanium/thirdparty/threejs/core/Matrix4.js : 411 - 411 | LIT:2 | / | ID:h|False Positive|Compute ortohogonal matrix
-Score : 0.97246504 | data/js/programs_all/dumbmatter/basketball-gm/js/core/team.js : 903 - 903 | LIT:2 | - | ID:round|False Positive|Calculate exp for some game. Less exp with higher round.
-Score : 0.9659375 | data/js/programs_all/trentrichardson/jQuery-Timepicker-Addon/dist/jquery-ui-timepicker-addon.js : 1748 - 1748 | ID:length | - | ID:indexOf|False Positive|Remove extra characters from error message to parse as date. Still in GH after 8 years
-Score : 0.97561985 | data/js/programs_all/moment/moment/min/moment-with-locales.js : 232 - 232 | ID:length | >= | ID:j|False Positive|Backwards loop condition. Find best locale. Still in GH.
-Score : 0.9875813 | data/js/programs_all/tbicr/OfflineMap/leaflet_blob_precache_site/pouchdb-1.1.0.js : 3458 - 3458 | ID:api | in | LIT:this|False Positive|Checking contents of this and setting if not present.
-Score : 0.99584806 | data/js/programs_all/Galloman/ss2d/ss2d.js/src/rendering/RenderSupport.js : 133 - 133 | LIT:2 | / | ID:width|False Positive|Compute flip matrix.
-Score : 0.9783753 | data/js/programs_all/yessky/selector/test/speed/frameworks/nwmatcher-1.2.5.js : 1445 - 1445 | ID:length | > | ID:i|False Positive|Unusual loop check. Good example?
-Score : 0.9526521 | data/js/programs_all/trigger-corp/browser-extensions/firefox/addon-sdk/lib/sdk/keyboard/utils.js : 188 - 188 | LIT:0 | < | ID:$|False Positive|Check function key
-Score : 0.9698397 | data/js/programs_all/ggpp224/easyUi/js/lib/base.js : 1235 - 1235 | LIT:2 | < | ID:length|False Positive|Unusual comparision. Good example?
-Score : 0.9925216 | data/js/programs_all/twitter/plumage.js/dist/plumage.js : 2832 - 2832 | LIT:9 | > | ID:documentMode|False Positive|Minified Jquery UI. Check for documentMode. Some Internet Explorer check
-Score : 0.9914862 | data/js/programs_all/thinkgem/jeesite/src/main/webapp/static/jingle/js/lib/Jingle.debug.js : 1633 - 1633 | LIT:1 | - | ID:firstDay|False Positive|Calcuate first day in calendar visualization
-Score : 0.99505943 | data/js/programs_all/yincart/basic/themes/backend/assets/javascripts/plugins/datatables/jquery.dataTables.columnFilter.js : 268 - 268 | ID:length | < | ID:i|False Positive|Range check for each function.
-Score : 0.9779533 | data/js/programs_all/timwindsor/EnyoJS-on-BlackBerry/Enyo-2.0-BB10-WebWorks/api/build/enyo.js : 408 - 408 | LIT:1 | - | ID:n|False Positive|Animation. Source is kind of minified. Original source is correct.
-Score : 0.98570323 | data/js/programs_all/luisibanez/SahanaEden/static/scripts/ext-2.2.1/ext-all-debug.js : 34849 - 34849 | ID:startRow | <= | ID:endRow|False Positive|Decide if forwards or backwards iteration.
-Score : 0.9876778 | data/js/programs_all/mhoegh/MyGeoCloud/js/ext/examples/image-organizer/SWFUpload/plugins/swfupload.speed.js : 247 - 247 | ID:length | >= | ID:i|Bug|Faulty range check for labelUnits. Incorrect operator >= instead of >
-Score : 0.9694723 | data/js/programs_all/theonion/videojs-vast-plugin/videojs.vast.js : 256 - 256 | ID:skip | - | ID:currentTime|False Positive|Check if video player can be skipped
-Score : 0.985115 | data/js/programs_all/wtsi-web/Genoverse/js/genoverse.combined.nojquery.js : 8 - 8 | ID:n | in | ID:i|False Positive|Minified Jquery. Probably correct.
-Score : 0.9617157 | data/js/programs_all/apeacox/nodino/public/javascripts/application.js : 37399 - 37399 | LIT:0 | > | ID:value|False Positive|Unusual range check
-Score : 0.96074665 | data/js/programs_all/redkite-labs/RedKiteCms/web/components/ace/src/ace.js : 7390 - 7390 | ID:startRow | < | ID:endRow|False Positive|Range check
-Score : 0.98348814 | data/js/programs_all/mbebenita/LLJS/src/compiler.js : 575 - 575 | ID:length | <= | ID:i|False Positive|Unusual range check
-Score : 0.96010315 | data/js/programs_all/kimmobrunfeldt/progressbar.js/dist/progressbar.js : 709 - 709 | LIT:1 | - | ID:cx|False Positive|Same warning for same code in framer.js for Bezier curve
-Score : 0.95284885 | data/js/programs_all/jensnockert/fft.js/lib/node.js : 148 - 148 | ID:q1 | < | ID:p|False Positive|FFT implementation. Probably correct. Names do not have any value.
-Score : 0.95655835 | data/js/programs_all/pete-otaqui/deckard/src/web-animations.js : 2576 - 2576 | ID:fraction | - | ID:map|False Positive|Bezier approximation.
-Score : 0.9747229 | data/js/programs_all/fiduswriter/fiduswriter/book/static/js/book-helpers.js : 361 - 361 | LIT:1 | < | ID:length|False Positive|Unusual comparision. Good example?
-Score : 0.98963034 | data/js/programs_all/owncloud/apps/files_odfviewer/js/webodf-debug.js : 2449 - 2449 | ID:mm | < | ID:j|False Positive|Minified Source. Probably correct, names have no meaning
-Score : 0.9571993 | data/js/programs_all/kynikos/wiki-monkey/src/configurations/opera/WikiMonkey-archwikibot-opera.user.js : 21 - 21 | LIT:4 | > | ID:d|False Positive|Minified Jquery.
-Score : 0.96074665 | data/js/programs_all/creesch/reddit-moderator-toolbox/libs/ace.js : 7328 - 7328 | ID:startRow | < | ID:endRow|False Positive|Same as for ace.js above
-Score : 0.9597056 | data/js/programs_all/bitwiseshiftleft/sjcl/core/random.js : 380 - 380 | LIT:1 | << | ID:length|False Positive|Bit shift count
-Score : 0.99047446 | data/js/programs_all/buu700/napster.fm/js/closure-library/closure/goog/editor/table.js : 172 - 172 | ID:startRow | < | ID:rowIndex|False Positive|Unusual comparision. Good example?
-Score : 0.9783753 | data/js/programs_all/konitter/styledocco-bootstrap-theme/share/docs.previews.js : 38 - 38 | ID:length | > | ID:i|False Positive|Unusual comparision. Good example?
-Score : 0.9524518 | data/js/programs_all/therealglazou/bluegriffon/extensions/svg-edit/content/editor/svg-editor.js : 3468 - 3468 | LIT:5 | - | ID:size|False Positive|Countdown from 5 – size
-Score : 0.95284885 | data/js/programs_all/colinbdclark/Flocking/dist/flocking-no-jquery.js : 10361 - 10361 | ID:q1 | < | ID:p|False Positive|Unusual loop variable name
-Score : 0.9560789 | data/js/programs_all/beaufortfrancois/cog-chrome-app/src/main.js : 233 - 233 | LIT:100 | - | ID:round|False Positive|Compute used memory
-Score : 0.9860384 | data/js/programs_all/MrSoya/soya2d/build/soya2d.core.js : 2666 - 2666 | LIT:360 | / | ID:ec|False Positive|Compute postion of polygon vertex
-Score : 0.99913347 | data/js/programs_all/balupton/jquery-sparkle/demo/scripts/bespin-0.9a1-custom/BespinMain.uncompressed.js : 10037 - 10037 | ID:length | < | ID:i|False Positive|Unusual comparision. i as limit
-Score : 0.9823449 | data/js/programs_all/kovacsv/JSModeler/src/geometry/utilities.js : 16 - 16 | ID:epsilon | / | ID:abs|False Positive|Gaussian computation
-Score : 0.9973296 | data/js/programs_all/zz85/audiokeys.js/dsp.js : 648 - 648 | LIT:2 | / | ID:n|False Positive|Consisten with other code
-Score : 0.99098104 | data/js/programs_all/RichardBronosky/sencha-touch/pkgs/widgets.js : 4629 - 4629 | ID:startRow | > | ID:endRow|False Positive|Fix start and end order
-Score : 0.95709974 | data/js/programs_all/credis/djaloha/djaloha/static/aloha.0.20/lib/aloha-bootstrap.js : 12058 - 12058 | LIT:9 | > | ID:parseInt|False Positive|Check browser version IE
-Score : 0.97682774 | data/js/programs_all/HackerWins/imejs/ime.js : 171 - 171 | ID:ZERO | <= | ID:keyCode|False Positive|Check if numeric key
-Score : 0.9611964 | data/js/programs_all/ti-dev/Scrum-it/src/main/webapp/scripts/jqPlot-1.0/jquery.jqplot.js : 7151 - 7151 | ID:digits | - | ID:length|False Positive|Pad number
-Score : 0.98321164 | data/js/programs_all/jivesoftware/jiveapps/applications/props/props-app/js/views/trophy_display_view.js : 99 - 99 | LIT:3 | - | ID:length|False Positive|Check enough shelves
-Score : 0.9763727 | data/js/programs_all/hobbyquaker/DashUI/dashui/widgets/RGraph/js/RGraph.meter.js : 387 - 387 | ID:PI | / | ID:prop|False Positive|Compute ratio where to put marks on circle
+Score | 0.96010315 | data/js/programs_all/bomberstudios/sketch-framer/examples/GoogleNow_exported_by_Framer/framer/framer.js | 4366 - 4366 | LIT|1| - | ID|cx|False Positive|Some Bezier curve computation. Same computation a few lines later|
+Score | 0.9694593 | data/js/programs_all/sirnewton01/godev/bundles/org.eclipse.orion.client.ui/web/orion/inlineSearchResultExplorer.js | 259 - 259 | LIT|0| < | ID|length|False Positive|Compare lenght of folders. Just weird arrangement|
+Score | 0.9697726 | data/js/programs_all/twitter/twitter-cldr-js/lib/assets/javascripts/twitter_cldr/en-IE.js | 1419 - 1419 | ID|_ref | <= | LIT|0|False Positive|Weird bidirectionaly for loop based on mentioned condition|
+Score | 0.9855146 | data/js/programs_all/itteco/iframely/modules/api/utils.js | 37 - 37 | LIT|100| / | ID|media|False Positive|Computes padding based on aspect ratio|
+Score | 0.99801505 | data/js/programs_all/KF-kissyForm/butterfly/gallery/form/1.1/uploader/auth/base.js | 179 - 179 | ID|len | < | ID|rule|False Positive|Check max uploads by comparing lenght of uploaded files with the configured rule max|
+Score | 0.9634204 | data/js/programs_all/quadroid/clonejs/src/clone.js | 607 - 607 | ID|count | / | ID|time|False Positive|Benchmarking compute throughput|
+Score | 0.9680401 | data/js/programs_all/chrisaljoudi/uBlock/src/js/static-net-filtering.js | 66 - 66 | LIT|13| << | LIT|4|False Positive|Some static computation of bit shifting|
+Score | 0.963853 | data/js/programs_all/kyr0/Extanium/Extanium/thirdparty/threejs/core/Matrix4.js | 411 - 411 | LIT|2| / | ID|h|False Positive|Compute ortohogonal matrix|
+Score | 0.97246504 | data/js/programs_all/dumbmatter/basketball-gm/js/core/team.js | 903 - 903 | LIT|2| - | ID|round|False Positive|Calculate exp for some game. Less exp with higher round.|
+Score | 0.9659375 | data/js/programs_all/trentrichardson/jQuery-Timepicker-Addon/dist/jquery-ui-timepicker-addon.js | 1748 - 1748 | ID|length | - | ID|indexOf|False Positive|Remove extra characters from error message to parse as date. Still in GH after 8 years|
+Score | 0.97561985 | data/js/programs_all/moment/moment/min/moment-with-locales.js | 232 - 232 | ID|length | >= | ID|j|False Positive|Backwards loop condition. Find best locale. Still in GH.|
+Score | 0.9875813 | data/js/programs_all/tbicr/OfflineMap/leaflet_blob_precache_site/pouchdb-1.1.0.js | 3458 - 3458 | ID|api | in | LIT|this|False Positive|Checking contents of this and setting if not present.|
+Score | 0.99584806 | data/js/programs_all/Galloman/ss2d/ss2d.js/src/rendering/RenderSupport.js | 133 - 133 | LIT|2| / | ID|width|False Positive|Compute flip matrix.|
+Score | 0.9783753 | data/js/programs_all/yessky/selector/test/speed/frameworks/nwmatcher-1.2.5.js | 1445 - 1445 | ID|length | > | ID|i|False Positive|Unusual loop check. Good example?|
+Score | 0.9526521 | data/js/programs_all/trigger-corp/browser-extensions/firefox/addon-sdk/lib/sdk/keyboard/utils.js | 188 - 188 | LIT|0| < | ID|$|False Positive|Check function key|
+Score | 0.9698397 | data/js/programs_all/ggpp224/easyUi/js/lib/base.js | 1235 - 1235 | LIT|2| < | ID|length|False Positive|Unusual comparision. Good example?|
+Score | 0.9925216 | data/js/programs_all/twitter/plumage.js/dist/plumage.js | 2832 - 2832 | LIT|9| > | ID|documentMode|False Positive|Minified Jquery UI. Check for documentMode. Some Internet Explorer check|Dropped Minified
+Score | 0.9914862 | data/js/programs_all/thinkgem/jeesite/src/main/webapp/static/jingle/js/lib/Jingle.debug.js | 1633 - 1633 | LIT|1| - | ID|firstDay|False Positive|Calcuate first day in calendar visualization|
+Score | 0.99505943 | data/js/programs_all/yincart/basic/themes/backend/assets/javascripts/plugins/datatables/jquery.dataTables.columnFilter.js | 268 - 268 | ID|length | < | ID|i|False Positive|Range check for each function.|
+Score | 0.9779533 | data/js/programs_all/timwindsor/EnyoJS-on-BlackBerry/Enyo-2.0-BB10-WebWorks/api/build/enyo.js | 408 - 408 | LIT|1| - | ID|n|False Positive|Animation. Source is kind of minified. Original source is correct.|Dropped Minified
+Score | 0.98570323 | data/js/programs_all/luisibanez/SahanaEden/static/scripts/ext-2.2.1/ext-all-debug.js | 34849 - 34849 | ID|startRow | <= | ID|endRow|False Positive|Decide if forwards or backwards iteration.|
+Score | 0.9876778 | data/js/programs_all/mhoegh/MyGeoCloud/js/ext/examples/image-organizer/SWFUpload/plugins/swfupload.speed.js | 247 - 247 | ID|length | >= | ID|i|Bug|Faulty range check for labelUnits. Incorrect operator >= instead of >|
+Score | 0.9694723 | data/js/programs_all/theonion/videojs-vast-plugin/videojs.vast.js | 256 - 256 | ID|skip | - | ID|currentTime|False Positive|Check if video player can be skipped|
+Score | 0.985115 | data/js/programs_all/wtsi-web/Genoverse/js/genoverse.combined.nojquery.js | 8 - 8 | ID|n | in | ID|i|False Positive|Minified Jquery. Probably correct.|Dropped Minified
+Score | 0.9617157 | data/js/programs_all/apeacox/nodino/public/javascripts/application.js | 37399 - 37399 | LIT|0| > | ID|value|False Positive|Unusual range check|
+Score | 0.96074665 | data/js/programs_all/redkite-labs/RedKiteCms/web/components/ace/src/ace.js | 7390 - 7390 | ID|startRow | < | ID|endRow|False Positive|Range check|
+Score | 0.98348814 | data/js/programs_all/mbebenita/LLJS/src/compiler.js | 575 - 575 | ID|length | <= | ID|i|False Positive|Unusual range check|
+Score | 0.96010315 | data/js/programs_all/kimmobrunfeldt/progressbar.js/dist/progressbar.js | 709 - 709 | LIT|1| - | ID|cx|False Positive|Same warning for same code in framer.js for Bezier curve|
+Score | 0.95284885 | data/js/programs_all/jensnockert/fft.js/lib/node.js | 148 - 148 | ID|q1 | < | ID|p|False Positive|FFT implementation. Probably correct. Names do not have any value.|
+Score | 0.95655835 | data/js/programs_all/pete-otaqui/deckard/src/web-animations.js | 2576 - 2576 | ID|fraction | - | ID|map|False Positive|Bezier approximation.|
+Score | 0.9747229 | data/js/programs_all/fiduswriter/fiduswriter/book/static/js/book-helpers.js | 361 - 361 | LIT|1| < | ID|length|False Positive|Unusual comparision. Good example?|
+Score | 0.98963034 | data/js/programs_all/owncloud/apps/files_odfviewer/js/webodf-debug.js | 2449 - 2449 | ID|mm | < | ID|j|False Positive|Minified Source. Probably correct, names have no meaning|Dropped Minified
+Score | 0.9571993 | data/js/programs_all/kynikos/wiki-monkey/src/configurations/opera/WikiMonkey-archwikibot-opera.user.js | 21 - 21 | LIT|4| > | ID|d|False Positive|Minified Jquery.|Dropped Minified
+Score | 0.96074665 | data/js/programs_all/creesch/reddit-moderator-toolbox/libs/ace.js | 7328 - 7328 | ID|startRow | < | ID|endRow|False Positive|Same as for ace.js above|
+Score | 0.9597056 | data/js/programs_all/bitwiseshiftleft/sjcl/core/random.js | 380 - 380 | LIT|1| << | ID|length|False Positive|Bit shift count|
+Score | 0.99047446 | data/js/programs_all/buu700/napster.fm/js/closure-library/closure/goog/editor/table.js | 172 - 172 | ID|startRow | < | ID|rowIndex|False Positive|Unusual comparision. Good example?|
+Score | 0.9783753 | data/js/programs_all/konitter/styledocco-bootstrap-theme/share/docs.previews.js | 38 - 38 | ID|length | > | ID|i|False Positive|Unusual comparision. Good example?|
+Score | 0.9524518 | data/js/programs_all/therealglazou/bluegriffon/extensions/svg-edit/content/editor/svg-editor.js | 3468 - 3468 | LIT|5| - | ID|size|False Positive|Countdown from 5 – size|
+Score | 0.95284885 | data/js/programs_all/colinbdclark/Flocking/dist/flocking-no-jquery.js | 10361 - 10361 | ID|q1 | < | ID|p|False Positive|Unusual loop variable name|
+Score | 0.9560789 | data/js/programs_all/beaufortfrancois/cog-chrome-app/src/main.js | 233 - 233 | LIT|100| - | ID|round|False Positive|Compute used memory|
+Score | 0.9860384 | data/js/programs_all/MrSoya/soya2d/build/soya2d.core.js | 2666 - 2666 | LIT|360| / | ID|ec|False Positive|Compute postion of polygon vertex|
+Score | 0.99913347 | data/js/programs_all/balupton/jquery-sparkle/demo/scripts/bespin-0.9a1-custom/BespinMain.uncompressed.js | 10037 - 10037 | ID|length | < | ID|i|False Positive|Unusual comparision. i as limit|
+Score | 0.9823449 | data/js/programs_all/kovacsv/JSModeler/src/geometry/utilities.js | 16 - 16 | ID|epsilon | / | ID|abs|False Positive|Gaussian computation|
+Score | 0.9973296 | data/js/programs_all/zz85/audiokeys.js/dsp.js | 648 - 648 | LIT|2| / | ID|n|False Positive|Consisten with other code|
+Score | 0.99098104 | data/js/programs_all/RichardBronosky/sencha-touch/pkgs/widgets.js | 4629 - 4629 | ID|startRow | > | ID|endRow|False Positive|Fix start and end order|
+Score | 0.95709974 | data/js/programs_all/credis/djaloha/djaloha/static/aloha.0.20/lib/aloha-bootstrap.js | 12058 - 12058 | LIT|9| > | ID|parseInt|False Positive|Check browser version IE|
+Score | 0.97682774 | data/js/programs_all/HackerWins/imejs/ime.js | 171 - 171 | ID|ZERO | <= | ID|keyCode|False Positive|Check if numeric key|
+Score | 0.9611964 | data/js/programs_all/ti-dev/Scrum-it/src/main/webapp/scripts/jqPlot-1.0/jquery.jqplot.js | 7151 - 7151 | ID|digits | - | ID|length|False Positive|Pad number|
+Score | 0.98321164 | data/js/programs_all/jivesoftware/jiveapps/applications/props/props-app/js/views/trophy_display_view.js | 99 - 99 | LIT|3| - | ID|length|False Positive|Check enough shelves|
+Score | 0.9763727 | data/js/programs_all/hobbyquaker/DashUI/dashui/widgets/RGraph/js/RGraph.meter.js | 387 - 387 | ID|PI | / | ID|prop|False Positive|Compute ratio where to put marks on circle|
+Score | 0.994647 | data/js/programs_all/tonyg/synchrotron/draw.js | 97 - 97 | ID|length | >= | ID|j|Bug|Faulty range check|Replacement Minified
+Score | 0.95007765 | data/js/programs_all/michaelbromley/horizonal/src/demo-themes/basic-javascript-animation/basic-javascript-animation.js | 74 - 74 | ID|duration | < | ID|elapsed|False Positive|Check if enough time passed|Replacement Minified
+Score | 0.95720017 | data/js/programs_all/paschmann/metric2/js/vendor/jquery.graphup.js | 35 - 35 | ID|percent | >= | ID|i|False Positive|Find percentage where value falls into|Replacement Minified
+Score | 0.99617326 | data/js/programs_all/jbr/sibilant/lib/sibilant.js | 546 - 546 | LIT|1| >= | ID|length|False Positive|Unusual comparision. Good example?|Replacement Minified
+Score | 0.9825589 | data/js/programs_all/fex-team/webuploader/jekyll/js/webuploader.js | 1254 - 1254 | ID|map | in | LIT|this|False Positive|Check if function in API|Replacement Minified
