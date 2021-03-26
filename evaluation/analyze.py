@@ -15,6 +15,8 @@ if __name__ == "__main__":
                 select_from[project] = []
             select_from[project].append(line)
 
+    print(f"Samples to choose from {len(select_from)} ")
+
     # First choose projects
     sampled = random.sample(list(select_from.keys()), N_SAMPLES)
     result = []
