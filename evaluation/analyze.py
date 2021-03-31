@@ -5,6 +5,7 @@ THRESHOLD = 0.95
 
 if __name__ == "__main__":
     select_from = {}
+    samples = 0
 
     with open("../trained_models/swappedBinOperands/poss_anomalies.txt", "r") as an:
         for line in an:
@@ -14,8 +15,9 @@ if __name__ == "__main__":
             if project not in select_from:
                 select_from[project] = []
             select_from[project].append(line)
+            samples += 1
 
-    print(f"Samples to choose from {len(select_from)} ")
+    print(f"Samples to choose from {samples} ")
 
     # First choose projects
     sampled = random.sample(list(select_from.keys()), N_SAMPLES)
